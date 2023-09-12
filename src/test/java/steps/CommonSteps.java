@@ -200,4 +200,13 @@ public class CommonSteps {
             throw new RuntimeException(e);
         }
     }
-}
+
+    @And("wait for {int} seconds")
+    public void waitForSeconds(int seconds) throws Exception {
+           Thread.sleep(seconds * 5000L);
+        }
+
+
+
+    }
+
