@@ -7,3 +7,4 @@ Feature: Authentification Form
     And wait for 2 seconds
     And click to "xpath=//button[@type='submit']"
     Then assert element "xpath=//a[contains(@href,'/user-profile')]" present
+    #this codwe is working
